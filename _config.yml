@@ -1,0 +1,15 @@
+title: git_commands_A-Z
+description: A complete reference of essential Git commands
+theme: jekyll-theme-cayman
+
+baseurl: "/git_commands_A-Z"
+url: "https://tanvirsweb.github.io"
+
+footer: >
+  © 2025 Tanvir Anjom Siddique — Powered by GitHub Pages and Jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown

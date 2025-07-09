@@ -2,8 +2,8 @@
 
 ---
 
-<!-- ```markdown
-``` -->
+## [Click here to View Detailed git_commands_A-Z webpage](https://tanvirsweb.github.io/git_commands_A-Z/)
+
 # git_commands_A-Z
 
 This repository contains a complete set of Git commands and instructions to help you manage your workflow efficiently. It covers everything from repository creation, committing changes, branching, merging, and undoing commits.
@@ -24,7 +24,7 @@ cd /path/to/git_commands_A-Z
 
 # Initialize a new Git repository locally
 git init
-````
+```
 
 ---
 
