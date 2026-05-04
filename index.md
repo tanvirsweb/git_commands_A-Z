@@ -8,6 +8,120 @@ A complete reference of essential Git commands, designed to help you efficiently
 
 ---
 
+
+# 🛠️ Getting a quick overview of Git commands using TLDR
+
+Git users often forget specific commands during work. The tool `tldr` provides simplified explanations with examples.
+
+## 💻 Installation (Windows)
+
+1. Open Command Prompt
+   Press Windows key, type cmd, and open Command Prompt.
+
+2. Check winget availability
+
+```cmd
+winget
+```
+
+3. Install tldr
+
+```cmd
+winget install tldr
+```
+
+> 📝 Note:<br>
+In some Windows 11 systems, tldr may already be pre-installed. If not, it can be installed from the official repository.
+
+🚀 Using TLDR with Git
+
+To view simplified Git command usage:
+
+```cmd
+tldr git
+```
+
+📊 Example Output
+
+```cmd
+git
+
+Distributed version control system.
+
+Common commands:
+
+Create repository:
+git init
+
+Clone repository:
+git clone https://example.com/repo.git
+
+Check status:
+git status
+
+Stage changes:
+git add --all
+
+Commit changes:
+git commit --message "message_text"
+
+Push changes:
+git push
+
+Pull changes:
+git pull
+
+Reset state:
+git reset --hard; git clean --force
+```
+
+🔍 Example for other commands
+
+```cmd
+tldr ls
+```
+
+This shows simplified usage of the ls command.
+
+If you want to know details of a specific git command write: `tlder git <<command>>` and press enter
+
+```cmd
+C:\Users\User>tldr git init
+
+  git init
+
+  Initialize a new local Git repository.
+  More information: https://git-scm.com/docs/git-init.
+
+  Initialize a new local repository:
+
+    git init
+
+  Initialize a repository with the specified name for the initial branch:
+
+    git init --initial-branch branch_name
+
+  Initialize a repository using SHA256 for object hashes (requires Git version
+  2.29+):
+
+    git init --object-format sha256
+
+  Initialize a barebones repository, suitable for use as a remote over SSH:
+
+    git init --bare
+
+
+C:\Users\User>
+```
+
+🎯 Purpose
+
+This part of repository helps developers quickly recall Git commands and improve workflow efficiency in real-world development environments.
+
+
+
+
+
 ## ✅ Git Commands in Sequential Workflow
 
 This table outlines a typical Git workflow with commands listed in a logical order, ensuring clarity for beginners and advanced users. Each command includes a description and the reason for its use.
@@ -376,3 +490,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 - 🌍 [Portfolio](https://tanvirsweb.github.io/)
 
 ---
+> [!NOTE]
+> Credit: The recommendation to use the `tldr` tool for quick command lookups was provided by `Md. Hashibur Rahman Kwoshik`. All other content and organization are original works.
