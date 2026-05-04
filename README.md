@@ -17,6 +17,7 @@ A comprehensive reference of essential Git commands and workflows — ideal for 
 git clone https://github.com/tanvirsweb/git_commands_A-Z.git
 
 ```
+
 ---
 
 ## 👤 Author
@@ -24,9 +25,9 @@ git clone https://github.com/tanvirsweb/git_commands_A-Z.git
 **Tanvir Anjom Siddique**
 🎓 BSc in Computer Science & Engineering, RUET
 
-* 🌐 **Portfolio:** [https://tanvirsweb.github.io](https://tanvirsweb.github.io)
-* 💼 **LinkedIn:** [https://linkedin.com/in/tanvir-anjom-siddique](https://linkedin.com/in/tanvir-anjom-siddique)
-* 💻 **GitHub:** [https://github.com/tanvirsweb](https://github.com/tanvirsweb)
+- 🌐 **Portfolio:** [https://tanvirsweb.github.io](https://tanvirsweb.github.io)
+- 💼 **LinkedIn:** [https://linkedin.com/in/tanvir-anjom-siddique](https://linkedin.com/in/tanvir-anjom-siddique)
+- 💻 **GitHub:** [https://github.com/tanvirsweb](https://github.com/tanvirsweb)
 
 ---
 
